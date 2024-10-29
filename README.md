@@ -4,7 +4,7 @@ Installation Guide for CRLF Injection Scanner
 
 # Clone the Repository:
 
-git clone https://github.com/your-username/CRLF-Injection-Scanner.git
+git clone https://github.com/murali1818/CRLF-Injection-Scanner.git
 
 # Navigate to the Project Directory:
 
