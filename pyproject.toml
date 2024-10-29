@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crlf"
+version = "1.0"
+description = "A brief description of your package"
+requires-python = ">=3.6"
+dependencies = [
+    "click",
+    "colorama",
+    "eventlet",
+    "requests",
+    "validators"
+]
+
+[tool.setuptools]
+packages = ["crlf", "scanner"]
+
+[project.scripts]
+
+crlf = "crlf:main"
